@@ -18,7 +18,7 @@ const UserSchema = new Schema(
     orderHistory: {
       type: objectId
     },
-    phoneNumber: {
+    phone: {
       type: String
     }
 
