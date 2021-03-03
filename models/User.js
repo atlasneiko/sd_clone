@@ -11,6 +11,10 @@ const UserSchema = new Schema(
       type: String,
       required: true
     },
+    type: {
+      type: String,
+      default: 'guest'
+    },
     orderHistory: {
       type: objectId
     },
