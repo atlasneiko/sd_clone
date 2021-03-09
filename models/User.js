@@ -16,7 +16,7 @@ const UserSchema = new Schema(
       default: 'guest'
     },
     orderHistory: {
-      type: objectId
+      type: Schema.Types.ObjectId
     },
     phone: {
       type: String
